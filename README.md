@@ -1,7 +1,13 @@
 # Google Guice-examples
 Examples of various types of bindings using Google Guice.
 
-Background
+
+
+
+
+
+
+# Background
 
 We have an interface called SIM which declares few mandatory functionalities to be implemented.
 
@@ -11,19 +17,26 @@ We need to create an instance for class CellPhone which has SIM as an attribute.
 
 CellPhone is not going to create instance for SIM as we are focused on iversion of control.
 
-Hence, instance for the service provider should be injected. We are going to use Google Guice for this purpose.
+Hence, the instance for the service provider should be injected. We are going to use Google Guice to achieve this.
 
 
 
 
-What we are going to implement??
-
-We are going to illustrate followings
+# What we are going to implement??
 
 1. Binding annotation
+   
+   Illustrates the binding using custom annotation. We'll create an annotation and use it for dependency injection. 
 
 2. @Name Binding
+   
+   Binding can be done without creating custom annotation. This can be achieved by @Name annotation.
 
 3. @Provides annotation usage
+   
+   Provides a way to create instance for complex objects.
 
 4. Provider class
+   
+   When an object creation is too complex, it is a good idea to move the implementation to a seperate class.
+   Provider class helps achieving it.
