@@ -3,7 +3,7 @@ Examples of various types of bindings using Google Guice.
 
 
 
-
+![](https://github.com/VinayakNBhat/google-guice-examples/blob/master/example.png)
 
 
 
