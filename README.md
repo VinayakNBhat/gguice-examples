@@ -15,7 +15,7 @@ Then we have BSNL, Airtel and Aircel classes implementing SIM.
 
 We need to create an instance for class CellPhone which has SIM as an attribute.
 
-CellPhone is not going to create instance for SIM as we are focused on iversion of control.
+CellPhone is not going to create instance for SIM as we are focused on inversion of control.
 
 Hence, the instance for the service provider should be injected. We are going to use Google Guice to achieve this.
 
